@@ -1,0 +1,77 @@
+body, form {
+    display: flex;
+}
+
+#left-column, #right-column {
+    overflow-y: auto;
+    height: 100vh;
+    border: 1px solid #ccc;
+}
+
+#left-column {
+    width: 70%
+}
+
+#right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-button {
+    margin-top: auto;
+    padding: 10px;
+}
+
+input {
+    width: 40px;
+    height: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+ padding:5px;
+}
+li {
+ border-top:1px solid #bbb;
+ padding:0 2px 0 4px;
+}
+li:first-child {
+ border:none;
+}
+
+/* Дополнительные стили для улучшения внешнего вида */
+.form-section div {
+    margin: 10px 0;
+}
+
+label {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+}
+
+input[type="text"], input[type="number"] {
+    width: 80px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
